@@ -1,0 +1,102 @@
+{
+  "name": "code-and-coffee-theme",
+  "displayName": "Code & Coffee Theme",
+  "description": "☕ A warm, cozy, coffee-shop-inspired coding theme with productivity tools. Reduce eye strain and boost focus during long coding sessions with espresso-toned dark, midnight, and latte variants.",
+  "version": "1.0.0",
+  "publisher": "code-and-coffee",
+  "author": {
+    "name": "Code & Coffee"
+  },
+  "license": "MIT",
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#1A120B",
+    "theme": "dark"
+  },
+  "pricing": "Free",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "coffee",
+    "theme",
+    "dark theme",
+    "developer",
+    "programming",
+    "vscode theme",
+    "cozy theme",
+    "night coding",
+    "productivity",
+    "minimal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-and-coffee/code-and-coffee-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/code-and-coffee/code-and-coffee-theme/issues"
+  },
+  "homepage": "https://github.com/code-and-coffee/code-and-coffee-theme#readme",
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Code & Coffee Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/code-coffee-dark-color-theme.json"
+      },
+      {
+        "label": "Code & Coffee Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/code-coffee-midnight-color-theme.json"
+      },
+      {
+        "label": "Code & Coffee Latte",
+        "uiTheme": "vs",
+        "path": "./themes/code-coffee-latte-color-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "codeAndCoffee.toggleFocusMode",
+        "title": "Code & Coffee: Toggle Focus Mode",
+        "icon": "$(eye)"
+      },
+      {
+        "command": "codeAndCoffee.startDeepWorkSession",
+        "title": "Code & Coffee: Start Deep Work Session",
+        "icon": "$(clock)"
+      },
+      {
+        "command": "codeAndCoffee.coffeeBreakReminder",
+        "title": "Code & Coffee: Coffee Break Reminder",
+        "icon": "$(bell)"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts",
+    "pretest": "npm run compile",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.4.0",
+    "@vscode/vsce": "^2.24.0"
+  }
+}
