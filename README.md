@@ -70,7 +70,7 @@ Access all commands via the **Command Palette** (`Ctrl+Shift+P` / `Cmd+Shift+P`)
    - `Code & Coffee Latte`
 
 ### From VSIX File
-1. Download the `.vsix` file from [Releases](https://github.com/code-and-coffee/code-and-coffee-theme/releases)
+1. Download the `.vsix` file from [Releases](https://github.com/Hydra-Ramesh/Code-And-Coffee-Extension/releases)
 2. Open VS Code
 3. Run `Extensions: Install from VSIX...` from the Command Palette
 4. Select the downloaded file
@@ -126,13 +126,13 @@ code --install-extension code-and-coffee.code-and-coffee-theme
 
 Contributions are welcome! Please feel free to:
 
-1. **Report bugs** — [Open an issue](https://github.com/code-and-coffee/code-and-coffee-theme/issues)
+1. **Report bugs** — [Open an issue](https://github.com/Hydra-Ramesh/Code-And-Coffee-Extension/issues)
 2. **Request features** — Suggest new theme variants or commands
 3. **Submit PRs** — Fork, branch, and submit pull requests
 
 ### Development Setup
 ```bash
-git clone https://github.com/code-and-coffee/code-and-coffee-theme.git
+git clone https://github.com/Hydra-Ramesh/Code-And-Coffee-Extension.git
 cd code-and-coffee-theme
 npm install
 npm run compile
@@ -152,7 +152,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you enjoy Code & Coffee Theme, please consider:
 
-- ⭐ **Starring** the [GitHub repository](https://github.com/code-and-coffee/code-and-coffee-theme)
+- ⭐ **Starring** the [GitHub repository](https://github.com/Hydra-Ramesh/Code-And-Coffee-Extension)
 - 📝 **Leaving a review** on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=code-and-coffee.code-and-coffee-theme)
 - ☕ **Sharing** with your developer friends
 
