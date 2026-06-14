@@ -1,11 +1,12 @@
 {
   "name": "code-and-coffee-theme",
   "displayName": "Code & Coffee Theme",
-  "description": "☕ A warm, cozy, coffee-shop-inspired coding theme with productivity tools. Reduce eye strain and boost focus during long coding sessions with espresso-toned dark, midnight, and latte variants.",
+  "description": "A warm, cozy, coffee-shop-inspired coding theme with productivity tools. Reduce eye strain and boost focus during long coding sessions with espresso-toned dark, midnight, and latte variants.",
+  "main": "./out/extension.js",
   "version": "1.0.0",
   "publisher": "RameshDas",
   "author": {
-    "name": "Code & Coffee"
+    "name": "Ramesh Das"
   },
   "license": "MIT",
   "icon": "images/logo.png",
@@ -33,19 +34,31 @@
     "productivity",
     "minimal"
   ],
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hydra-Ramesh/Code-And-Coffee-Extension"
+    "url": "https://github.com/Hydra-Ramesh/Code-And-Coffee-Extension.git"
   },
   "bugs": {
     "url": "https://github.com/Hydra-Ramesh/Code-And-Coffee-Extension/issues"
   },
   "homepage": "https://github.com/Hydra-Ramesh/Code-And-Coffee-Extension#readme",
-  "main": "./out/extension.js",
-  "activationEvents": [
-    "onStartupFinished"
-  ],
+  "activationEvents": [],
   "contributes": {
+    "commands": [
+      {
+        "command": "codeAndCoffee.toggleFocusMode",
+        "title": "Code & Coffee: Toggle Focus Mode"
+      },
+      {
+        "command": "codeAndCoffee.startDeepWorkSession",
+        "title": "Code & Coffee: Start Deep Work Session"
+      },
+      {
+        "command": "codeAndCoffee.coffeeBreakReminder",
+        "title": "Code & Coffee: Coffee Break Reminder"
+      }
+    ],
     "themes": [
       {
         "label": "Code & Coffee Dark",
@@ -61,23 +74,6 @@
         "label": "Code & Coffee Latte",
         "uiTheme": "vs",
         "path": "./themes/code-coffee-latte-color-theme.json"
-      }
-    ],
-    "commands": [
-      {
-        "command": "codeAndCoffee.toggleFocusMode",
-        "title": "Code & Coffee: Toggle Focus Mode",
-        "icon": "$(eye)"
-      },
-      {
-        "command": "codeAndCoffee.startDeepWorkSession",
-        "title": "Code & Coffee: Start Deep Work Session",
-        "icon": "$(clock)"
-      },
-      {
-        "command": "codeAndCoffee.coffeeBreakReminder",
-        "title": "Code & Coffee: Coffee Break Reminder",
-        "icon": "$(bell)"
       }
     ]
   },

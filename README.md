@@ -4,11 +4,6 @@
 
 Reduce eye strain and improve focus during long coding sessions with carefully crafted espresso tones, warm accents, and thoughtful contrast — like coding in a premium coffee shop at night.
 
-[![VS Marketplace](https://img.shields.io/visual-studio-marketplace/v/code-and-coffee.code-and-coffee-theme?style=for-the-badge&logo=visual-studio-code&logoColor=white&label=VS%20Marketplace&color=C68E5A)](https://marketplace.visualstudio.com/items?itemName=code-and-coffee.code-and-coffee-theme)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/code-and-coffee.code-and-coffee-theme?style=for-the-badge&color=2C1810)](https://marketplace.visualstudio.com/items?itemName=code-and-coffee.code-and-coffee-theme)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/code-and-coffee.code-and-coffee-theme?style=for-the-badge&color=E6A23C)](https://marketplace.visualstudio.com/items?itemName=code-and-coffee.code-and-coffee-theme)
-[![License: MIT](https://img.shields.io/badge/License-MIT-98C379?style=for-the-badge)](LICENSE)
-
 ---
 
 ## 🎨 Three Carefully Crafted Variants
@@ -77,7 +72,7 @@ Access all commands via the **Command Palette** (`Ctrl+Shift+P` / `Cmd+Shift+P`)
 
 ### From Command Line
 ```bash
-code --install-extension code-and-coffee.code-and-coffee-theme
+code --install-extension RameshDas.code-and-coffee-theme
 ```
 
 ---
@@ -85,24 +80,24 @@ code --install-extension code-and-coffee.code-and-coffee-theme
 ## 🎨 Color Palette
 
 ### Coffee Palette
-| Color | Hex | Preview |
-|-------|-----|---------|
-| Espresso | `#2C1810` | ![#2C1810](https://via.placeholder.com/16/2C1810/2C1810.png) |
-| Mocha | `#4B2E2A` | ![#4B2E2A](https://via.placeholder.com/16/4B2E2A/4B2E2A.png) |
-| Latte | `#D7CCC8` | ![#D7CCC8](https://via.placeholder.com/16/D7CCC8/D7CCC8.png) |
-| Caramel | `#C68E5A` | ![#C68E5A](https://via.placeholder.com/16/C68E5A/C68E5A.png) |
-| Cream | `#F5E6D3` | ![#F5E6D3](https://via.placeholder.com/16/F5E6D3/F5E6D3.png) |
-| Coffee Bean | `#1A120B` | ![#1A120B](https://via.placeholder.com/16/1A120B/1A120B.png) |
+| Color | Hex |
+|-------|-----|
+| Espresso | `#2C1810` |
+| Mocha | `#4B2E2A` |
+| Latte | `#D7CCC8` |
+| Caramel | `#C68E5A` |
+| Cream | `#F5E6D3` |
+| Coffee Bean | `#1A120B` |
 
 ### Accent Colors
-| Color | Hex | Usage | Preview |
-|-------|-----|-------|---------|
-| Warm Orange | `#FFB86C` | Constants, attributes | ![#FFB86C](https://via.placeholder.com/16/FFB86C/FFB86C.png) |
-| Golden Amber | `#E6A23C` | Numbers, decorators | ![#E6A23C](https://via.placeholder.com/16/E6A23C/E6A23C.png) |
-| Soft Green | `#98C379` | Strings | ![#98C379](https://via.placeholder.com/16/98C379/98C379.png) |
-| Muted Blue | `#61AFEF` | Functions | ![#61AFEF](https://via.placeholder.com/16/61AFEF/61AFEF.png) |
-| Rose | `#E06C75` | Keywords, tags | ![#E06C75](https://via.placeholder.com/16/E06C75/E06C75.png) |
-| Lavender | `#C678DD` | Types, classes | ![#C678DD](https://via.placeholder.com/16/C678DD/C678DD.png) |
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Warm Orange | `#FFB86C` | Constants, attributes |
+| Golden Amber | `#E6A23C` | Numbers, decorators |
+| Soft Green | `#98C379` | Strings |
+| Muted Blue | `#61AFEF` | Functions |
+| Rose | `#E06C75` | Keywords, tags |
+| Lavender | `#C678DD` | Types, classes |
 
 ---
 
@@ -133,7 +128,7 @@ Contributions are welcome! Please feel free to:
 ### Development Setup
 ```bash
 git clone https://github.com/Hydra-Ramesh/Code-And-Coffee-Extension.git
-cd code-and-coffee-theme
+cd Code-And-Coffee-Extension
 npm install
 npm run compile
 ```
@@ -153,11 +148,9 @@ This project is licensed under the [MIT License](LICENSE).
 If you enjoy Code & Coffee Theme, please consider:
 
 - ⭐ **Starring** the [GitHub repository](https://github.com/Hydra-Ramesh/Code-And-Coffee-Extension)
-- 📝 **Leaving a review** on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=code-and-coffee.code-and-coffee-theme)
+- 📝 **Leaving a review** on the VS Code Marketplace
 - ☕ **Sharing** with your developer friends
 
 ---
 
-<p align="center">
-  <strong>Made with ☕ and ❤️ for developers who love great code and great coffee.</strong>
-</p>
+Made with ☕ and ❤️ for developers who love great code and great coffee.
